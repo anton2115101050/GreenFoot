@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Enemy2
+comment1.params=
+comment1.target=Enemy2()
+comment2.params=speed
+comment2.target=Enemy2(int)
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ shootLaserEnemy2()
+numComments=5
