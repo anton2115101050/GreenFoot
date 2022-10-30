@@ -1,0 +1,74 @@
+<!--Nama    : Kadek Feny Sugiantari
+    NIM     : 2115101024-->
+    
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Update Biodata Karyawan</title>
+    </head>
+    <body>
+        <h4 style="margin: 0px;">Update Biodata Karyawan</h4>
+        <hr/>
+        <form action=" formulir.php" method="POST">
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" name="nama" value="" placeholder="Tuliskan Nama Anda" /></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td><input type="password" name="password" placeholder="Tulisan Password Anda" /></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><input type="radio" name="jk" value="laki-laki" checked /> Laki-laki
+                    <input type="radio" name="jk" value="perempuan" /> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td><input type="checkbox" name="hobi_baca" /> Membaca Buku
+                    <input type="checkbox" name="hobi_nulis" checked /> Menulis
+                    <input type="checkbox" name="hobi_mancing" /> Memancing
+                    <input type="checkbox" name="hobi_olahraga" /> Berolahraga
+                </td>
+            </tr>
+            <tr>
+                <td>Asal Kota</td>
+                <td>:</td>
+                <td><select name="asal_kota">
+                    <option value="Kota Jakarta">Jakarta</option>
+                    <option value="Kota Bandung">Bandung</option>
+                    <option value="Kota Bali">Bali</option>
+                    <option value="Kota Semarang" selected>Semarang</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Komentar</td>
+                <td>:</td>
+                <td><textarea name="komentar" id="" cols="20" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Note</td>
+                <td>:</td>
+                <td>
+                    <ol>
+                        <li>Tulis dengan huruf balok</li>
+                        <li>Centang yang memang sesuai dengan biodata karyawan</li>
+                        <li>Simpan setiap perubahan</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right"><input type="submit" value="Simpan"></td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>
+
